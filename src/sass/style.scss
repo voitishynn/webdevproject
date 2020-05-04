@@ -1,0 +1,119 @@
+
+.promo{
+    background: url('/img/main_bg.jpg') center (center / cover) no-repeat; 
+    height: 850px;
+    .header_logo{
+        img{
+            width: 250px;
+            display: block;
+            margin: 0 auto;
+            padding-top: 70px;
+        }
+       
+    }
+    header{
+       .menu{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            padding-top: 20px;
+            &_link{
+                font-size: 25px;
+                color:#ffffff;
+            }
+            &_item{
+                border-right: 2px dotted white;
+                padding-right: 140px;
+                &:last-child{
+                    border-right:none;
+                }
+            }
+    }
+    }
+    &_header{
+        padding-top: 50px;
+        font-size: 60px;
+        color:#ffffff;
+        text-align: center;
+    }
+    &_subheader{
+        font-size:25px;
+        color:#ffffff;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+.main{
+    padding: 100px 0 63px 0;
+    height: 800px;
+    background: url('/img/second_bg.jpg') center (center / cover) no-repeat; 
+    &_header{
+        color:#ffffff;
+        font-size: 40px;
+        text-align: left;
+        line-height: 40px;
+    }
+    &_item{
+        color:#ffffff;
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+    &_list{
+        padding-top: 60px;
+        text-align: left;
+        padding-left: none;
+    }
+    .when{
+        color:#ffffff;
+        padding-top: 40px;
+        text-align: left;
+        font-size: 19px;
+    }
+    &_icon{
+        img{
+            width: 150px;
+            margin-top: 40px;
+        }
+        .author{
+            color:#ffffff;
+            margin-top: 25px;
+            font-size: 18px;
+        }
+    }
+    .overlay{
+        position: relative;
+    }
+    .modal{
+        
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+       
+    }
+    .feed-form{
+        width:300px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    input{
+        height: 50px;
+        border-radius: 5px;
+        background-color: #fff;
+        margin-bottom: 15px;
+        border:none;
+        padding: 0 20px;
+        font-size: 14px;
+        font-weight: 300;
+    
+        &:nth-child(3){
+            margin-bottom: 20px;
+        }
+    }
+    
+   
+}
+
+   
